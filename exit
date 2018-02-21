@@ -1,0 +1,27 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 6456fa8..77bebe4 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -11,7 +11,10 @@[m
+     </header>[m
+     <section class="video">[m
+       <a href="#"> Download Excursion (Coming soon!)</a>[m
+[31m-      [m
+[32m+[m[32m      <video src="resources/videos/excursion.mp4" autoplay loop>Your browser does not support the video tag</video>[m
+[32m+[m[32m    </section>[m
+[32m+[m[32m    <section class="banner">[m
+[32m+[m[32m      <img src="" alt="">[m
+     </section>[m
+ [m
+ [m
+[1mdiff --git a/resources/css/style.css b/resources/css/style.css[m
+[1mindex 5803eac..8911d9f 100644[m
+[1m--- a/resources/css/style.css[m
+[1m+++ b/resources/css/style.css[m
+[36m@@ -10,4 +10,6 @@[m [mh1 {[m
+ a {[m
+   font-size: 16px;[m
+   color: aquamarine;[m
+[32m+[m[32m  display: block;[m
+[32m+[m[32m  margin-bottom: 20px;[m
+ }[m
